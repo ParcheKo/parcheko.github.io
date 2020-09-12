@@ -1,10 +1,19 @@
 - layout: left
-  name: Harvard University
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
-  quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  name: K. N. Toosi University of Technology
+  dates: 2010 - 2016
+  qualification: MSc Mechatronics Engineering
+  #quote: >
+  #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+    My thesis was focused on evaluating so-called intelligence (AI) based algorithms for training some special kinds of oscillating networks (CPGs) had shown outstanding abilities for imitating repetitive movements specially walking of vertebrates, specially walking gaits. I used some setups to check that ability using simulation-based version of a humanoid robot made by Fujitsu.
+    
+- layout: left
+  name: Guilan University 
+  dates: 2015 - 2010
+  qualification: BSc Electronics Engineering
+  #quote: >
+  #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  description: | # this will include new lines to allow paragraphs
+    I was into digital signal processing (DSP) back in those times and tried to pursue my vision using a simple frequency analysis algorithm (FFT) for comparing frequency bands of some recorded inputs to thats of a pre-recorded commands containing mere numbers 1-9, in order to trigger some command in case one of them was detected.
 
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    

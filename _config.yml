@@ -1,4 +1,5 @@
 # Site
+# repository: ParcheKo/parcheko.github.io
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
@@ -6,10 +7,14 @@ favicon: images/favicon.ico
 name: Amir A. Rezaei P.
 title: Software Developer
 email: amir.a.rezaei.p@gmail.com
-website: www.parchecko.ir
+phone: +989399622920
+website: parchecko.ir
+
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
-twitter_username: facespics
+twitter_username: amir_parcheko
 github_username:  parcheko
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -24,9 +29,34 @@ linkedin_username: parcheko
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Amir and I'm a software developer. With a vast computer programming and engineering background, problems have always fascinated me to keep solving them in the best and the most correct way.
+  Hi, my name's Amir and I'm a software developer. With a vast computer programming and engineering background, problems have always fascinated me to keep solving them in the best and the most correct way I knew at the time.
 
-  I am most skilled in `C#/.NET`, `T-SQL` and `Security`.
+  I am most skilled in `C#`, `.NET`, `T-SQL` and `Web Security`.
+
+# Skills Section
+# skills_title: Skills
+skills_content: |
+  <br/>
+  - Proficient in C#
+  - Proficient in .NET Framework & Core
+  - Proficient in T-SQL
+  - Proficient in English and technical docs
+  - Good knowledge of Entity Framework 6 & Core
+  - Solid understanding of Clean Architecture & Domain-Driven Design
+  - Good knowledge of Microservices and related architectural patterns
+  - Good knowledge of Design Patterns & SOLID Principles
+  - Good knowledge of Event Sourcing & CQRS
+  - Good knowledge of web security concepts
+  - Experience with oAuth / OpenID Connect / Identity Server  
+  - Experience with ASP.NET MVC / Web Forms / Windows Forms
+  - Experience with RESTful APIs
+  - Experience with at CSS/HTML/JavaScript & Angular & TypeScript
+  - Familiar with new Web / Browser Technologies in HTML5, CSS3 & new ECMAScript standards 
+  - Experience with Git & TFS 
+  - Vast experience of Visual Studio, VS Code & debugging
+  - Excellent at Command / Terminal
+  - Familiar with Docker
+  - Familiar with Ionic
 
 # Projects Section
 # projects_title: Projects
@@ -40,19 +70,20 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-   In my spare time, I also try to play with new and old technologies and create some funny and useful things out of them. Among the are:
+   In my spare time, I also try to play with new and old technologies and create some funny and useful things out of them. Things like:
    - Python for AI and Face Recognition
    - Telegram bots
-   - Linux Terminal
+   - Linux & Terminal
    - Extra bits!
    
-   I also like doing calligraphy, traveling, playing Ping-Pong and reading about economy if I can  create more time :)
+   I also like doing calligraphy (نستعلیق), traveling, playing Ping-Pong and reading about economy if I can  create more time :)
 
 # Footer
 footer_show_references: true
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme #(Use this is you are hosting your resume yourself)
+remote_theme: parcheko/modern-resume-theme #(Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -60,3 +91,5 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+ #darkmode: true
