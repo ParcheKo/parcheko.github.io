@@ -21,18 +21,19 @@
     - using their capital
     - paying installments on a monthly-basis personally through an online payment gateway or using a POS device
     - deducting from their monthly salary till their contracts are settled.
+    
     I specially participated in improving some batch payment operations using EF 6. I also was responsible for improving performance of database views and stored procedures.
 
 - layout: top-middle
-  name: A finance management system
+  name: A finance (stocks) management system
   #link: github.com/sproogen
   #github: sproogen/resume-theme
   #quote: A sales system for special kind of products / services provided to stakeholders.
   description: |  # this will include new lines to allow paragraphs
-    A Windows Forms application created on a custom-made fairly nice and solid framework mostly based on ADO.NET, inherited custom-made Forms and Control for special tasks related to the financial nature of the application and tons of reflection in C#. At the heart, it uses a custom engine for handling financial transactions including increase / decrease (similar to deposit/withdraw) and other kinds. Results of calculation of transactions are all committed to the database using Stored Procedures.
+    A Windows Forms application created on a custom-made fairly nice and solid framework mostly based on ADO.NET, inherited custom-made Forms and Control for special tasks related to the financial nature of the application and tons of reflection in C#. At the heart, it uses a custom engine for handling financial transactions including increase / decrease (similar to deposit / withdraw) and other kinds. Results of calculation of transactions are all committed to the database using Stored Procedures.
 
 - layout: top-middle
-  name: Biometrics Solutions
+  name: A few biometrics solutions
   #link: github.com/sproogen
   #github: sproogen/resume-theme
   #quote: A sales system for special kind of products / services provided to stakeholders.
@@ -41,8 +42,10 @@
     - Enrolment - scans and creates a couple of standard signatures for later use
     - Verification - checks if a claimed fingerprint signature is of an enough similarity to the new scanned one.
     - Identification - gets one fingerprint and compares it to a collection of previously saved ones to figures out if there was any match among them or not.
+
     Furthermore, I created some Windows Forms libraries to make it simply usable for a typical application developer in Windows Forms applications we had. The plan was to gather stakeholder fingerprints gradually in time and to verify them later on critical financial transactions, specially withdrawals. We also made use of the identification capability of the system on some Windows Forms apps like Access Control on special occasions. 
-    As a second phase, I designed a couple of [Nancy](https://github.com/NancyFx/Nancy)-base web APIs making it ready-to-use in web-based applications of company. 
+    
+    As the second phase, I designed a couple of [Nancy](https://github.com/NancyFx/Nancy)-base web APIs making it ready-to-use in web-based applications of company. 
 
 - layout: top-middle
   name: A customer loyalty club
@@ -50,5 +53,5 @@
   #github: sproogen/resume-theme
   #quote: A sales system for special kind of products / services provided to stakeholders.
   description: |  # this will include new lines to allow paragraphs
-    Designing and implementing requires businesses of a batch-processes mechanisms of the company customers' loyalty club using mostly database and stored procedure-based approaches. A user could define various types of so-called "promotion plans" based on business transactions and financial behaviors of customers, based on which configuration, system assigns customers some points in each plan. Also the system has the responsibility for generation of customers' lottery codes to be used in a specific kind of lottery. 
+    Designing and implementing required business blocks for the batch-processing mechanisms of the company customers' loyalty club using mostly database and stored procedure-based approaches. A user could define various types of so-called "promotion plans" based on business transactions and financial behaviors of customers. Then according to the plan's configuration, system assigns customers some points in each plan. Also the system has the responsibility for generation of customers' lottery codes to be used in a specific kind of lottery with prizes. 
 
