@@ -1,4 +1,15 @@
 - layout: top-middle
+  name: An infrastructure for modern and scalable application hosting
+  #link: github.com/sproogen
+  #github: sproogen/resume-theme
+  #quote: A sales system for special kind of products / services provided to stakeholders.
+  description: |  # this will include new lines to allow paragraphs
+    The most recent and still-open project of mine is going through a series of research and development in order to find the most suitable and state-of-the-art software components and solutions required for an infrastructure capable of hosting a handful of line-of-business applications company already has which are scattered and buried deep down in legacy code and some other closed-source completely-bought solutions. Targets is scalability and flexibility which has led me to the Domain-Driven Design , Clean Architecture principles, including selecting the most reliable version of framework, software stacks and solutions that are available for use. The main three parts include:
+    - A Central AutN/AuthZ System (CAS) based on state-of-the-art principles of web security following oAuth 2.0 and OIDC-based components like Identity Server 4.
+    - A backend designed as a modular monolith, considering best practices in DDD architecture and SOLID principles and whenever possible using state-of-the-art solutions for required building blocks, maybe EventFlow.NET, ElasticSearch, OpenTelemetry, Azure Vault, Jaeger, Eureka and so on.
+    - All types of clients / front-ends considered to be located in this section. An Angular-based Ionic Framework solution is the first choice as the power of Angular in managing large client applications and also Ionic's Capacitor-based capabilities in run-everywhere approaches are undeniable, reducing costs for not developing dedicated separated apps for mobile platforms. Also, PWAs (Progressive Web Apps) are considered from day one in this approach which I believe to have a brilliant future potentials.     
+
+- layout: top-middle
   name: A contract, loan and payment management system
   #link: github.com/sproogen
   #github: sproogen/resume-theme
@@ -13,7 +24,7 @@
     I specially participated in improving some batch payment operations using EF 6. I also was responsible for improving performance of database views and stored procedures.
 
 - layout: top-middle
-  name: A financial management system
+  name: A finance management system
   #link: github.com/sproogen
   #github: sproogen/resume-theme
   #quote: A sales system for special kind of products / services provided to stakeholders.
@@ -32,4 +43,12 @@
     - Identification - gets one fingerprint and compares it to a collection of previously saved ones to figures out if there was any match among them or not.
     Furthermore, I created some Windows Forms libraries to make it simply usable for a typical application developer in Windows Forms applications we had. The plan was to gather stakeholder fingerprints gradually in time and to verify them later on critical financial transactions, specially withdrawals. We also made use of the identification capability of the system on some Windows Forms apps like Access Control on special occasions. 
     As a second phase, I designed a couple of [Nancy](https://github.com/NancyFx/Nancy)-base web APIs making it ready-to-use in web-based applications of company. 
+
+- layout: top-middle
+  name: A customer loyalty club
+  #link: github.com/sproogen
+  #github: sproogen/resume-theme
+  #quote: A sales system for special kind of products / services provided to stakeholders.
+  description: |  # this will include new lines to allow paragraphs
+    Designing and implementing requires businesses of a batch-processes mechanisms of the company customers' loyalty club using mostly database and stored procedure-based approaches. A user could define various types of so-called "promotion plans" based on business transactions and financial behaviors of customers, based on which configuration, system assigns customers some points in each plan. Also the system has the responsibility for generation of customers' lottery codes to be used in a specific kind of lottery. 
 
