@@ -35,27 +35,27 @@ about_content: | # this will include new lines to allow paragraphs
 
 # Skills Section
 # skills_title: Skills
-skills_content: |
-  <br/>
-  - Proficient in C#
-  - Proficient in .NET Framework & Core
-  - Proficient in T-SQL (SQL Server)
-  - Proficient in English and technical doc comprehension
-  - Good knowledge of Entity Framework 6 & Core
-  - Solid understanding of Clean Architecture & Domain-Driven Design
-  - Good knowledge of Microservices and related architectural patterns like ES, CQRS etc
-  - Good knowledge of Design Patterns & SOLID Principles
-  - Good knowledge of web security concepts
-  - Experience with RESTful APIs & classic SOAP Web Services
-  - Experience with oAuth / OpenID Connect / Identity Server  
-  - Experience with Git & TFS 
-  - Experience with ASP.NET MVC / Web Forms / Windows Forms
-  - Experience with at CSS/HTML/JavaScript & Angular & TypeScript
-  - Familiar with new Web / Browser Technologies in HTML5, CSS3 & new ECMAScript standards 
-  - Vast experience of Visual Studio, VS Code & debugging
-  - Excellent at Command / Terminal
-  - Familiar with Docker
-  - Familiar with Ionic Framework
+# skills_content: |
+#   <br/>
+#   - Proficient in C#
+#   - Proficient in .NET Framework & Core
+#   - Proficient in T-SQL (SQL Server)
+#   - Proficient in English and technical doc comprehension
+#   - Good knowledge of Entity Framework 6 & Core
+#   - Solid understanding of Clean Architecture & Domain-Driven Design
+#   - Good knowledge of Microservices and related architectural patterns like ES, CQRS etc
+#   - Good knowledge of Design Patterns & SOLID Principles
+#   - Good knowledge of web security concepts
+#   - Experience with RESTful APIs & classic SOAP Web Services
+#   - Experience with oAuth / OpenID Connect / Identity Server  
+#   - Experience with Git & TFS 
+#   - Experience with ASP.NET MVC / Web Forms / Windows Forms
+#   - Experience with at CSS/HTML/JavaScript & Angular & TypeScript
+#   - Familiar with new Web / Browser Technologies in HTML5, CSS3 & new ECMAScript standards 
+#   - Vast experience of Visual Studio, VS Code & debugging
+#   - Excellent at Command / Terminal
+#   - Familiar with Docker
+#   - Familiar with Ionic Framework
 
 # Projects Section
 # projects_title: Projects
@@ -75,7 +75,9 @@ more_content: | # this will include new lines to allow paragraphs
    - Linux & Terminal
    - Extra bits!
    
-   I also like doing calligraphy (نستعلیق), traveling, playing Ping-Pong and reading about economy if I can create more time :)
+   I also like doing calligraphy (
+     <span lang="fa">نستعلیق</span>
+     ), traveling, playing Ping-Pong and reading about economy if I can create more time :)
 
 # Footer
 footer_show_references: true
@@ -90,5 +92,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
- #darkmode: true

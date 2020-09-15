@@ -1,0 +1,26 @@
+- layout: top-middle
+  #name: Skill ABC
+  #link: github.com/sproogen
+  #github: sproogen/resume-theme
+  #quote: A sales system for special kind of products / services provided to stakeholders.
+  description: |
+    - Proficient in C#
+    - Proficient in .NET Framework & Core
+    - Proficient in T-SQL (SQL Server)
+    - Proficient in English and technical doc comprehension
+    - Good knowledge of Entity Framework 6 & Core
+    - Solid understanding of Clean Architecture & Domain-Driven Design
+    - Good knowledge of Microservices and related architectural patterns like ES, CQRS etc
+    - Good knowledge of Design Patterns & SOLID Principles
+    - Good knowledge of web security concepts
+    - Experience with RESTful APIs & classic SOAP Web Services
+    - Experience with oAuth / OpenID Connect / Identity Server  
+    - Experience with Git & TFS 
+    - Experience with ASP.NET MVC / Web Forms / Windows Forms
+    - Experience with at CSS/HTML/JavaScript & Angular & TypeScript
+    - Familiar with new Web / Browser Technologies in HTML5, CSS3 & new ECMAScript standards 
+    - Vast experience of Visual Studio, VS Code & debugging
+    - Excellent at Command / Terminal
+    - Familiar with Docker
+    - Familiar with Ionic Framework
+  
