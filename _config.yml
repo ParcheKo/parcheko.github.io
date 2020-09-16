@@ -29,11 +29,9 @@ linkedin_username: parcheko
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  <br/>
   Hi, my name's Amir and I'm a software developer. With a vast computer programming and engineering background, problems have always fascinated me to keep solving them in the best and the most correct way I knew at the time.
 
   I am most skilled in `C#`, `.NET`, `T-SQL` and `Web Security`.
-
 
 # Skills Section
 # skills_title: Skills
