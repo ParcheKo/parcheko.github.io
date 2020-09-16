@@ -5,7 +5,7 @@
   #quote: A sales system for special kind of products / services provided to stakeholders.
   description: |  # this will include new lines to allow paragraphs
     The most recent work-in-progress project of mine is going through a series of researches and developments in order to choose the most appropriate and state-of-the-art software components and solutions required for an infrastructure capable of hosting a handful of line-of-business applications company already has which are scattered and buried deep down in legacy code and some other closed-source completely-bought solutions. The main targets are scalability and flexibility which has led me to Domain-Driven Design and Clean Architecture alongside selecting the most reliable version of framework, software stacks and solutions that are available for use. This .NET Core-based project can be divided into three parts:
-    - A Central AutN / AuthZ System (CAS) based on the state-of-the-art principles of web security following oAuth 2.0 and OIDC-based components like Identity Server 4.
+    - A Central AuthN / AuthZ System (CAS) based on the state-of-the-art principles of web security following oAuth 2.0 and OIDC-based components like Identity Server 4.
     - A backend designed as a `modular monolith` at first, but designed in a way to make the transition to `Microservices` architecture as easy as possible in case it was inevitable. I'm considering best practices of DDD and SOLID, trying to use state-of-the-art solutions for required building blocks considering EventFlow.NET, Elasticsearch, Serilog, OpenTelemetry, Azure Vault, Jaeger, Eureka, RabbitMQ, Redis, OpenAPI (Swagger) and so on. AlLso following best practices in using ASP.NET Core Web API technology like API versioning, HATEOAS, rate limiting etc.
     - All types of clients / front-ends considered to be located in this section. An Angular-based Ionic Framework solution is the first choice as the power of Angular in managing large client applications and also Ionic's Capacitor-based capabilities in run-everywhere approaches are undeniable, reducing costs for not developing dedicated separated apps for mobile platforms. Also, PWAs (Progressive Web Apps) are considered from day one in this approach which I believe to have a brilliant future potentials.
 
@@ -15,7 +15,7 @@
   #github: sproogen/resume-theme
   #quote: A sales system for special kind of products / services provided to stakeholders.
   description: |  # this will include new lines to allow paragraphs
-    A ASP.NET Web Forms application using master pages, forms authentication and a SQL Server database using Entity Framework interfacing dozens of web services used to integrate into other systems.
+    A ASP.NET Web Forms-based application using Forms Authentication, SQL Server database using Entity Framework 6 and communicating with dozens of web services in order to integrate into other systems.
 
     A sales system for special kind of products / services provided to stakeholders based on their credit / capital. Debts are to be payed off though a couple of ways, among them are: 
     - using their capital
@@ -41,11 +41,11 @@
     It was an interesting experience creating some facade APIs for a relatively low-level and generally hard-to-work library that drives a series of biometric fingerprint scanners made by Suprema company. The provided features are:
     - Enrolment - scans and creates a couple of standard signatures for later use
     - Verification - checks if a claimed fingerprint signature is of an enough similarity to the new scanned one.
-    - Identification - gets one fingerprint and compares it to a collection of previously saved ones to figures out if there was any match among them or not.
+    - Identification - gets one fingerprint and compares it to a collection of previously saved ones to figure out if there was any match among them or not.
 
-    Furthermore, I created some Windows Forms libraries to make it simply usable for a typical application developer in Windows Forms applications we had. The plan was to gather stakeholder fingerprints gradually in time and to verify them later on critical financial transactions, specially withdrawals. We also made use of the identification capability of the system on some Windows Forms apps like Access Control on special occasions. 
+    Furthermore, I created some Windows Forms libraries to make it simply usable for a typical application developer in Windows Forms applications we had. The plan was to gather stakeholders' fingerprints gradually in time and to verify / identify them later on serious financial transactions, specially withdrawals. We also made use of the identification capability of the system on some Windows Forms apps like Access Control on special occasions. 
     
-    As the second phase, I designed a couple of [Nancy](https://github.com/NancyFx/Nancy)-base web APIs making it ready-to-use in web-based applications of company. 
+    As the second phase, I designed a couple of [Nancy](https://github.com/NancyFx/Nancy)-based web APIs making it ready-to-use in web-based applications of company. 
 
 - layout: top-middle
   name: A customer loyalty club
@@ -53,5 +53,5 @@
   #github: sproogen/resume-theme
   #quote: A sales system for special kind of products / services provided to stakeholders.
   description: |  # this will include new lines to allow paragraphs
-    Designing and implementing required business blocks for the batch-processing mechanisms of the company customers' loyalty club using mostly database and stored procedure-based approaches. A user could define various types of so-called "promotion plans" based on business transactions and financial behaviors of customers. Then according to the plan's configuration, system assigns customers some points in each plan. Also the system has the responsibility for generation of customers' lottery codes to be used in a specific kind of lottery with prizes. 
+    Designing and implementing required business blocks for the batch-processing mechanisms of the company `customers' loyalty club` using mostly database and stored procedure-based approaches. A system user could define various types of so-called `promotion plans` based on business transactions and financial behavior of customers. Then according to the plan's configuration, system assigns customers some points in each plan. Also the system has the responsibility for generation of customers' lottery codes to be used in a specific kind of lottery with prizes. 
 
