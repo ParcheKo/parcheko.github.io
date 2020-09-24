@@ -1,20 +1,21 @@
 # Site
 # repository: ParcheKo/parcheko.github.io
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+favicon: images/favicon.png
 
 # Personal info
 name: Amir A. Rezaei P.
 title: Software Developer
 email: amir.a.rezaei.p@gmail.com
-phone: +989399622920
+phone: '+989399622920'
 website: parcheko.ir
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: amir_parcheko
+skype_username: amir.a.rezaei.p
 github_username:  parcheko
 # dribbble_username: jekyll
 facebook_username: amir.a.rezaei.p
